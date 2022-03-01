@@ -22,7 +22,7 @@ In this analysis, we demonstrate four methods of predicting the peak bloom data 
 | **data**|The data folder contains orginal dataset and processed data used for the project. |
 | [data/processed_data/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/) | Historical timeseries temperature dataset and processed bloom date dataset|
 | [data/processed_data/features/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/features) | Extracted features for ML model training |
-| [result/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/result) | results of different |
+| [result/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/result) | predictions of different models|
 
 ## Source Code
 Source code are located in the /src folder. The key files are:
