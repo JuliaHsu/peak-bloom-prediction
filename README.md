@@ -18,7 +18,7 @@ In this analysis, we demonstrate four methods of predicting the peak bloom data 
 ## Folder Structure
 | Folder | Description |
 | ------ | ----------- |
-| **src** |  The src folder contains source code for the project. |
+| **src** |  The src folder contains all the source codes for the project. |
 | **data**|The data folder contains orginal dataset and processed data used for the project. |
 | [data/processed_data/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/) | Historical timeseries temperature dataset and processed bloom date dataset|
 | [data/processed_data/features/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/features) | Extracted features for ML model training |
@@ -31,7 +31,7 @@ Source code are located in the /src folder. The key files are:
 
 | File | Description |
 | ---- | ----------- |
-| [cherry-blossom-hireachical_lm](https://github.com/JuliaHsu/peak-bloom-prediction/blob/main/src/hierarchical_linear_regression/cherry-blossom-hireachical_lm.r) | R scripts for Hierarchical Linear Regression model |
+| [cherry-blossom-hireachical_lm.r](https://github.com/JuliaHsu/peak-bloom-prediction/blob/main/src/hierarchical_linear_regression/cherry-blossom-hireachical_lm.r) | R scripts for Hierarchical Linear Regression model |
 ### Machine Learning Models
 
 | File | Description |
