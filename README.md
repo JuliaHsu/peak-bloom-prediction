@@ -30,7 +30,7 @@ Source code are located in the /src folder. The key files are:
 
 | File | Description |
 | ---- | ----------- |
-
+| [cherry-blossom-hireachical_lm]() | R scripts for Hierarchical Linear Regression model |
 ### Machine Learning Models
 
 | File | Description |
@@ -50,19 +50,19 @@ Source code are located in the /src folder. The key files are:
 | Support Vector Regression             | 3.628               | 24.094             |
 | LSTM                                  | 10.739              | 16.416             |
 
-## Predictions
-| Year | Kyoto | Washington DC | Liestal | Vancouver |
-| -----| ----- | ------------- | ------- | ----------|
-| 2022 |
-| 2023 |
-| 2024 |
-| 2025 |
-| 2026 |
-| 2027 |
-| 2028 |
-| 2029 |
-| 2030 |
-| 2031 |
+## Predictions (using Hierarchical Linear Regressions)
+| Year | Kyoto | Liestal       | Washington DC | Vancouver |
+| -----| ----- | ------------- | ------------- | --------- |
+| 2022 | 92    | 95            | 91            | 96        |
+| 2023 | 101   | 115           | 86            | 88        |
+| 2024 | 99    | 113           | 87            | 86        |
+| 2025 | 100   | 112           | 91            | 89        |           
+| 2026 | 100   | 113           | 88            | 88        |
+| 2027 | 100   | 112           | 88            | 87        |
+| 2028 | 101   | 113           | 92            | 89        |
+| 2029 | 99    | 113           | 89            | 89        |
+| 2030 | 100   | 111           | 85            | 89        | 
+| 2031 | 102   | 115           | 86            | 89        |
 
 
 
