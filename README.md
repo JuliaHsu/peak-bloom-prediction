@@ -22,6 +22,7 @@ In this analysis, we demonstrate four methods of predicting the peak bloom data 
 | **data**|The data folder contains orginal dataset and processed data used for the project. |
 | [data/processed_data/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/) | Historical timeseries temperature dataset and processed bloom date dataset|
 | [data/processed_data/features/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/data/processed_data/features) | Extracted features for ML model training |
+| [result/](https://github.com/JuliaHsu/peak-bloom-prediction/tree/main/result) | results of different |
 
 ## Source Code
 Source code are located in the /src folder. The key files are:
@@ -30,7 +31,7 @@ Source code are located in the /src folder. The key files are:
 
 | File | Description |
 | ---- | ----------- |
-| [cherry-blossom-hireachical_lm]() | R scripts for Hierarchical Linear Regression model |
+| [cherry-blossom-hireachical_lm](https://github.com/JuliaHsu/peak-bloom-prediction/blob/main/src/hierarchical_linear_regression/cherry-blossom-hireachical_lm.r) | R scripts for Hierarchical Linear Regression model |
 ### Machine Learning Models
 
 | File | Description |
@@ -63,6 +64,8 @@ Source code are located in the /src folder. The key files are:
 | 2029 | 99    | 113           | 89            | 89        |
 | 2030 | 100   | 111           | 85            | 89        | 
 | 2031 | 102   | 115           | 86            | 89        |
+
+The submission results for this competition is [result/submission_predictions.csv](https://github.com/JuliaHsu/peak-bloom-prediction/blob/main/result/submission_predictions.csv)
 
 
 
