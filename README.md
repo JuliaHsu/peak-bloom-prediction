@@ -4,8 +4,7 @@
 * Date: Feb. 28th, 2022
 
 ## Introduction
-In this analysis, we demonstrate four methods of predicting the peak bloom data in the coming decade for all four locations required by the competition. The cherry trees' blossom development is dependent on weather conditions in winter or spring and species of growing degree. Especially, the trees will bloom highly affects by their growing degree days(GDD), which is a measurement based on the temperature degrees of the area where it is located and the certain threshold base temperature.  Therefore, we studied the GDD calculations of the different cherry trees species listed in each location. 
-
+This analysis demonstrates four methods of predicting the peak bloom data in the coming decade for all four locations required by the competition. The cherry trees' blossom development is dependent on weather conditions in winter or spring and species of growing degree (Shi. al, 2017). Especially, the trees will bloom highly affected by their growing degree days (GDD), which is a measurement based on the area's temperature degrees and the certain threshold base temperature. Therefore, we studied the GDD calculations of the different cherry trees species listed in each location (Prentice et al., 1992; Chung et al., 2011).
 ## Data
 1. [Peak Bloom Date dataset](https://github.com/GMU-CherryBlossomCompetition/peak-bloom-prediction/tree/main/data) provided by George Mason’s Department of Statistics cherry blossom peak bloom prediction competition.
 2. [Historical temperature and rainfall observations](https://psl.noaa.gov/data/gridded/data.cpc.globalprecip.html) are extracted from CPC Global Unified Gauge-Based Analysis.
